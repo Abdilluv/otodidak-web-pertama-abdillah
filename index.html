@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to MyWebsite</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Assets/Icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">Abdil X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#tentang">TENTANG</a></li>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:abdillahfajar22@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Abdillah Here!</p>
+            <p class="description">a freshgraduate from Village</p>
+            <img src="Assets/MyPict/snapedit_1702476404457.jpg" alt="abdillah fajar foto 1" class="img-foto" />
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang" id="tentang">
+            <p class="title">Hello!</p>
+            <p class="description">i'm a fresh graduate in the field of Computer Science. I’m a diligent,
+                detail-oriented individual with strong
+                communication skills, ready to take on challenges to ensure products or services meet the highest
+                quality
+                standards. With one year of experience in IT operations and infrastructure, I have developed a profound
+                comprehension of information technology infrastructure and skills in software development. I am
+                committed to
+                contributing my technical expertise and innovative mindset in a dynamic professional setting.</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Kerja Sama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="Assets/Icon/24-hours.png" alt="icon 1" class="icon" />
+                    <p class="card-title">Pelayanan</p>
+                    <p class="card-description">Melayani 24/7</p>
+                </div>
+                <div class="card-item">
+                    <img src="Assets/Icon/hot-deal.png" alt="icon 2" class="icon" />
+                    <p class="card-title">Programmer best price</p>
+                    <p class="card-description">Programmer</p>
+                </div>
+                <div class="card-item">
+                    <img src="Assets/Icon/rating.png" alt="icon 3" class="icon" />
+                    <p class="card-title">684 review</p>
+                    <p class="card-description">Rating Saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Abdillah Website 2023</p>
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/abdilluv/"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6281285511303"
+        }
+    </script>
+</body>
+
+</html>
